@@ -15,7 +15,7 @@ function polindroma(word){
     for (i = word.length -1; i >= 0 ;i--){                              // con il ciclo for mi vado a prendere la parola  e la decremento di 1 
          console.log(parola.charAt(i))  
          string = string + word.charAt(i) 
-         console.log (s) 
+         console.log (string) 
      } 
 
     // 2. confrontiamo la parola con la parola inversa
